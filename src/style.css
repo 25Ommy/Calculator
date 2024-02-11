@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 720px;
+  background-color: #0c131f;
+
+  background: linear-gradient(
+    90deg,
+    rgba(207, 38, 228, 1) 0%,
+    rgba(19, 8, 56, 1) 0%,
+    #1c4181 100%
+  );
+}
+.wrapper {
+  background: #212b3c;
+  width: 450px;
+  padding: 1rem;
+  border-top: 3px solid rgb(102, 100, 103);
+  border-radius: 10px;
+  box-shadow: 5px 10px 3px #212b3c;
+}
+.wrapper input {
+  width: 95%;
+  margin: 1rem 0;
+  padding: 1.5rem 1rem;
+  text-align: right;
+  outline: none;
+  border: 1px solid rgb(243, 220, 220);
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ul li {
+  font-size: 1.5rem;
+  width: 20%;
+  text-align: center;
+  padding: 1rem o.8rem;
+  cursor: pointer;
+  margin: 0.6rem;
+  border-radius: 10%;
+  box-shadow: 1px 0px 10px rgb(1, 1, 54);
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+ul li:active {
+  transform: scale(1.2);
+}
+.screen {
+  position: relative;
+}
+.top-text {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  color: rgb(3, 3, 40);
+}
+.dummy {
+  font-size: 1.2rem;
+}
+.clr {
+  color: rgb(246, 93, 93);
+}
+.btns {
+  color: mediumseagreen;
+}
